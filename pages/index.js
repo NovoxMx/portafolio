@@ -68,6 +68,10 @@ const Home = () => {
           <SocialMedia />
           {/* Send Mail */}
           <SendMail />
+          {/* Footer */}
+          {/* Feedback Modal */}
+          <Feedback />
+          {/* ShoveeModal */}
           
         </div>
       </div>
