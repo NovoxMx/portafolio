@@ -64,13 +64,13 @@ const Project = () => {
                 }}
               >
                 <div
-                  className='bg-red-600 p-1 cursor-pointer'
+                  className='bg-white p-1 cursor-pointer'
                   onMouseLeave={() => setHeight1("")}
                   onMouseMove={() => setHeight1(project.projectName)}
                 >
                   {/* Project Name */}
                   <p
-                    className='text-white text-center'
+                    className='text-black text-center'
                     onClick={() =>
                       setHeight1(height1 === "" ? project.projectName : "")
                     }

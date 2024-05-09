@@ -66,7 +66,7 @@ const TechStack = () => {
         >
           <button
             className={`w-[120px] md:w-[150px] p-2 font-bold ${
-              section === "Bueno" ? "bg-red-600" : null
+              section === "Bueno" ? "bg-[#c72c6c] dark:bg-[#07d0e5]" : null
             } transition-all`}
             onClick={(e) => {
               setSection(e.target.innerText);
@@ -78,7 +78,7 @@ const TechStack = () => {
           </button>
           <button
             className={`w-[120px] md:w-[150px] p-2 font-bold ${
-              section === "Suficiente" ? "bg-red-600" : null
+              section === "Suficiente" ? "bg-[#c72c6c] dark:bg-[#07d0e5]" : null
             } transition-all border-l border-r border-black dark:border-white border-solid`}
             onClick={(e) => {
               setSection(e.target.innerText);
@@ -90,7 +90,7 @@ const TechStack = () => {
           </button>
           <button
             className={`w-[100px] md:w-[150px] p-2 font-bold ${
-              section === "Familiar" ? "bg-red-600" : null
+              section === "Familiar" ? "bg-[#c72c6c] dark:bg-[#07d0e5]" : null
             } transition-all`}
             onClick={(e) => {
               setSection(e.target.innerText);

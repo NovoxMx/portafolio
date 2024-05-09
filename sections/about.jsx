@@ -57,23 +57,23 @@ const About = () => {
           <Image
             alt='about image'
             className={
-              "shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-[500px] rounded object-contain"
+              "shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-[300px] w-[300px] rounded-full object-cover"
             }
-            height={350}
+            height={250}
             ref={profile2Ref}
-            src='https://res.cloudinary.com/daoth80ez/image/upload/v1715197351/Media/qtw65xmqzpi1v1mge8jb.jpg'
-            width={350}
+            src='https://res.cloudinary.com/daoth80ez/image/upload/v1715228487/Media/su8brgz8ykb1s06sxxqi.jpg'
+            width={250}
           />
           <div
             className='text-lg translate-x-[900px] opacity-0 transition-all duration-700 mt-4 md:mt-0 md:w-[50%] text-center md:text-left rounded'
             ref={aboutInfoRef}
           >
             {/* Full Name */}
-            <p className='text-3xl text-center md:text-left font-semibold text-[#c72c6c] dark:text-[#07d0e5]'>
+            <p className='text-3xl text-center md:text-center font-semibold text-[#c72c6c] dark:text-[#07d0e5]'>
               Angel Marin
             </p>
             {/* Profil Name */}
-            <p className='text-center md:text-left text-white mt-1'>
+            <p className='text-center md:text-center text-black mt-1 dark:text-white'>
               Front End Developer
             </p>
             {/* Location */}
@@ -101,7 +101,7 @@ const About = () => {
                     <IoPerson />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-white'>
+                <p className='text-center md:text-left text-[#0b0c0c] dark:text-white'>
                   21
                 </p>
               </div>
@@ -116,7 +116,7 @@ const About = () => {
                     <BsMenuAppFill />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-white'>
+                <p className='text-center md:text-left text-[#0b0c0c] dark:text-white'>
                   3{" "}
                 </p>
               </div>
@@ -131,15 +131,15 @@ const About = () => {
                     <BsTranslate />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-white'>
+                <p className='text-center md:text-left text-[#0b0c0c] dark:text-white'>
                   Español, Ingles (B2)
                 </p>
               </div>
             </div>
-            
+
 
             <div className='mt-5 justify-evenly text-justify'>
-              <p className='text-gray-600 dark:text-gray-300'>
+              <p className='text-black dark:text-gray-300'>
                 Apasionado por la tecnología y el desarrollo web, me gusta la creación de aplicaciones web y móviles, en especial el diseño de interfaces de usuario y la experiencia de usuario. Con diseño UI/UX moderno y responsivo. Me gusta trabajar en equipo y aprender nuevas tecnologías.
               </p>
             </div>

@@ -68,14 +68,14 @@ const Intro = () => {
             <div className='mt-5 md:mt-10 flex gap-3'>
               {/* Hire Me Button */}
               <Link
-                className='text-white text-xl font-semibold rounded bg-red-400 hover:bg-red-500 px-2 py-1'
+                className='text-xl font-semibold rounded border border-[#c72c6c] hover:text-white hover:bg-[#c72c6c] 0 px-2 py-1 dark:border-[#07d0e5] dark:hover:bg-[#07d0e5] dark:hover:text-white'
                 href={"#getInTouch"}
               >
                 Contactame
               </Link>
               {/* Download CV Button */}
               <Link
-                className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
+                className='text-xl font-semibold rounded border border-[#c72c6c] hover:text-white hover:bg-[#c72c6c] 0 px-2 py-1 dark:border-[#07d0e5] dark:hover:bg-[#07d0e5] dark:hover:text-white'
                 href='https://drive.google.com/file/d/1F3Zj_WdARmby9qcDNbTs--n3xg3pQFg4/view?usp=drive_link'
                 target='_blank'
               >

@@ -62,7 +62,7 @@ const Education = () => {
                 width={150}
               />
               <div className='flex flex-col gap-2 p-3 md:p-1'>
-                <p className='text-xl md:text-2xl font-bold text-red-600'>
+                <p className='text-xl md:text-2xl font-bold text-[#c72c6c]'>
                   {education.name}
                 </p>
                 <p>{education.schoolOrCollege}</p>
