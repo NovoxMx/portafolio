@@ -61,7 +61,7 @@ const Experience = () => {
                   }
                 >
                   <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-[#c72c6c]'>
+                    <p className='text-xl md:text-2xl font-bold text-[#c72c6c] dark:text-[#07d0e5]'>
                       {experience.companyName}
                     </p>
                     <p className='flex gap-2 items-center text-blue-500'>

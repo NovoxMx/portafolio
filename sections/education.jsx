@@ -51,7 +51,7 @@ const Education = () => {
         >
           {EducationData.map((education) => (
             <div
-              className='transition-all duration-700 flex border border-zinc-300 dark:border-zinc-700 shadow-md shadow-zinc-300 dark:shadow-zinc-700 rounded gap-6'
+              className='transition-all duration-700 flex border border-zinc-300 dark:border-zinc-700 shadow-md shadow-zinc-300 dark:shadow-zinc-700 rounded gap-6 '
               key={education.name}
             >
               <Image
@@ -62,7 +62,7 @@ const Education = () => {
                 width={150}
               />
               <div className='flex flex-col gap-2 p-3 md:p-1'>
-                <p className='text-xl md:text-2xl font-bold text-[#c72c6c]'>
+                <p className='text-xl md:text-2xl font-bold text-[#c72c6c] dark:text-[#07d0e5]'>
                   {education.name}
                 </p>
                 <p>{education.schoolOrCollege}</p>
