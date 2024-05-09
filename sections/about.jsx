@@ -110,7 +110,7 @@ const About = () => {
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
                   <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                    Proyectos
+                    Proyectosssss
                   </p>
                   <p>
                     <BsMenuAppFill />
