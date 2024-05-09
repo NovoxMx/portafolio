@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaBlackTie, FaUserCheck } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { IoPerson } from "react-icons/io5";
-import { BsMenuAppFill } from "react-icons/bs";
+import { BsMenuAppFill, BsTranslate } from "react-icons/bs";
 
 const About = () => {
   const [isAbout, setIsAbout] = useState(false);
@@ -73,7 +73,7 @@ const About = () => {
               Angel Marin
             </p>
             {/* Profil Name */}
-            <p className='text-center md:text-left text-red-600 mt-1'>
+            <p className='text-center md:text-left text-white mt-1'>
               Front End Developer
             </p>
             {/* Location */}
@@ -81,14 +81,14 @@ const About = () => {
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
                   <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                    Origen
+                    Donde Resido
                   </p>
                   <p>
                     <ImLocation />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#07d0e5]'>
-                  Acapulco Guerrero, México{" "}
+                <p className='text-center md:text-left text-[#0b0c0c] dark:text-white'>
+                  Hermosillo Sonora, México{" "}
                 </p>
               </div>
               {/* Age */}
@@ -101,12 +101,11 @@ const About = () => {
                     <IoPerson />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  2{" "}
+                <p className='text-center md:text-left text-[#c72c6c] dark:text-white'>
+                  21
                 </p>
               </div>
-              {/* Experience */}
-             
+
               {/* Project */}
               <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
@@ -117,11 +116,27 @@ const About = () => {
                     <BsMenuAppFill />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                <p className='text-center md:text-left text-[#c72c6c] dark:text-white'>
                   3{" "}
                 </p>
               </div>
+              {/* Idiomas */}
+
+              <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
+                <div className='flex gap-3 items-center'>
+                  <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                    Idiomas
+                  </p>
+                  <p>
+                    <BsTranslate />
+                  </p>
+                </div>
+                <p className='text-center md:text-left text-[#c72c6c] dark:text-white'>
+                  Español, Ingles (B2)
+                </p>
+              </div>
             </div>
+            
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>

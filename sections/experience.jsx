@@ -69,13 +69,13 @@ const Experience = () => {
                     </p>
                   </div>
 
-                  <div className='flex justify-between text-gray-600 dark:text-gray-400 gap-2 mt-2'>
+                  <div className='flex justify-between text-gray-600 dark:text-white gap-2 mt-2'>
                     <p className='font-semibold'>{experience.role}</p>
                     <p>{experience.fromTo}</p>
                   </div>
 
                   <p
-                    className='mt-2 text-justify transition-all duration-500 overflow-hidden text-gray-700 dark:text-gray-500'
+                    className='mt-2 text-justify transition-all duration-500 overflow-hidden text-gray-700 dark:text-gray-400'
                     style={
                       desc == experience.description
                         ? { maxHeight: "400px" }

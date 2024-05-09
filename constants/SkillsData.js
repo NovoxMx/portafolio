@@ -61,6 +61,10 @@ export const TechStackData = [
         icon: <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />
       },
       {
+        name: "React Native",
+        icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
+      },
+      {
         name: "MySQL",
         icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
       },
@@ -82,10 +86,6 @@ export const TechStackData = [
       {
         name: "Angular",
         icon: <FaAngular className="md:text-4xl text-2xl" color="#c50836" />
-      },
-      {
-        name: "React Native",
-        icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
       },
       {
         name: "PHP",
