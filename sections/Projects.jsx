@@ -2,8 +2,8 @@
 import React, { Fragment, useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { CgWebsite } from "react-icons/cg";
-import { HiExternalLink } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
+import { FaFigma } from "react-icons/fa";
 
 import { ProjectsData } from "@/constants";
 
@@ -53,7 +53,7 @@ const Project = () => {
               {/* Project Image */}
               <div
                 className={
-                  "w-[330px] shadow-md shadow-zinc-300 dark:shadow-zinc-700 h-48 bg-no-repeat flex flex-col justify-end rounded overflow-hidden bg-cover"
+                  "w-[400px] shadow-md shadow-zinc-300 dark:shadow-zinc-700 h-60 bg-no-repeat flex flex-col justify-end rounded overflow-hidden bg-cover"
                 }
                 onMouseLeave={() => setHeight1("")}
                 onMouseMove={() => setHeight1(project.projectName)}
@@ -64,7 +64,7 @@ const Project = () => {
                 }}
               >
                 <div
-                  className='bg-white p-1 cursor-pointer'
+                  className='bg-white p-1 cursor-pointer text-md stroke-2 text-black'
                   onMouseLeave={() => setHeight1("")}
                   onMouseMove={() => setHeight1(project.projectName)}
                 >
@@ -78,24 +78,24 @@ const Project = () => {
                     {project.projectName}
                   </p>
                   <div
-                    className='overflow-hidden transition-all duration-500 h-[70px] flex gap-10 justify-center items-center'
+                    className='overflow-hidden transition-all duration-700 h-[75px] flex gap-10 justify-center items-center'
                     style={
                       height1 === project.projectName
                         ? { maxHeight: "200px" }
                         : { maxHeight: "0" }
                     }
                   >
-                    {/* GitHub Link */}
-                    {project.liveUrl && (
+                    {/* Figma url */}
+                    {project.figmaUrl && (
                       <Link
                         className='text-xl text-white p-1 bg-gray-700 hover:bg-gray-950 rounded'
-                        href={project.liveUrl}
+                        href={project.figmaUrl}
                         target='_blank'
                       >
-                        <HiExternalLink />
+                        <FaFigma />
                       </Link>
                     )}
-                    {/* Live url */}
+                    {/* Github url */}
                     {project.githubUrl && (
                       <Link
                         className='text-xl text-white p-1 bg-gray-700 hover:bg-gray-950 rounded'
@@ -104,6 +104,21 @@ const Project = () => {
                       >
                         <BsGithub />
                       </Link>
+                    )}
+                  </div>
+                  <div
+                    className='overflow-hidden transition-all duration-700 h-[75px] flex gap-10 justify-center items-center'
+                    style={
+                      height1 === project.projectName
+                        ? { maxHeight: "200px" }
+                        : { maxHeight: "0" }
+                    }
+                  >
+                    {/* Project Desc */}
+                    {project.projectDescription && (
+                      <p className='text-sm text-black'>
+                        {project.projectDescription}
+                      </p>
                     )}
                   </div>
                 </div>
