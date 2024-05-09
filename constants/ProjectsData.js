@@ -26,7 +26,7 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "https://res.cloudinary.com/daoth80ez/image/upload/v1715198675/Media/nojqxj9k0uuyaqxnzquy.png"
         },
-        projectDescription: "Nasa Copilot es una sitio web que permite.",
+        projectDescription: "Nasa Copilot fue un proyecto de Hackathon donde se desarrolló una página web que valida los documentos de la misión espacial de la NASA utilizando la OpenAI_API y completó con éxito el desafío de un hackathon.",
         techs: ["ReactJS", "NodeJS", "Python", "OPENAI_API", "Javascript", "Typescript"]
     }
 ]
